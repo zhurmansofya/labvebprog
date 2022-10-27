@@ -1,0 +1,785 @@
+
+      body {
+        padding: 0;
+        margin: 0;
+       
+    }
+
+
+    /*верхняя строка*/
+    .container {
+        margin: auto;
+        width: 70%;
+        padding: 0;
+    }
+    
+    .top-nav-menu-container {
+        width: 100%;
+        background-color: brown;
+        border: 1px solid black;
+    }
+    
+    .top-nav-menu-container ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: grey;
+    }
+    
+    
+    .top-nav-menu-container ul li1 {
+        float: left;
+        padding:2px;
+    }
+    
+    .top-nav-menu-container ul li1 a {
+      display: block;
+      color: black;
+      font-size: 1.6em;
+      text-align: center;
+      background-color: white;;
+      border-radius: 15px;
+      width: 140px;
+      padding: 10px ;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .top-nav-menu-container ul li1 a:hover { /*-- наводим на текст и он подсвечивается-->*/
+        background-color: rgba(100, 100, 100, 0.614);
+    }
+
+    .top-nav-menu-container ul li2 {
+        float: right;
+        
+    }
+    
+    .top-nav-menu-container ul li2 a {
+      display: block;
+      color: black;
+      text-align: center;
+      border-left:1.5px solid black ;
+      padding: 18px;
+      text-decoration: none;
+    }
+    .top-nav-menu-container ul li2 a:hover { /*-- наводим на текст и он подсвечивается-->*/
+    background-color: rgba(100, 100, 100, 0.614);
+   
+    }
+
+
+
+     /*правое и левое меню*/
+    .colum{
+        float:left;
+    }
+    .box-left-side {
+        background-color: lightgrey;
+        width: 25%;
+        border-bottom: 1px solid black;
+        border-left: 1px solid black;
+        border-right: 1px solid black;
+        height:auto;
+    }
+    .box-right-side{
+        width: 74.703%;
+        border-right: 1px solid black;
+        border-bottom: 1px solid black;
+        background-color: lightgrey;
+        height:auto;
+    }
+    .box-left-side div{
+        padding-top: 0px;
+        padding-bottom: 8px;
+        text-align: left;
+    }
+   .box-left-side div a{
+    display: block;
+    text-decoration: none;
+    border-bottom:1px solid black;
+    border-top:1px solid black ;
+    padding: 8px;
+    color:black;;
+    font-size: 1.2em;
+   }
+   .box-left-side div a:visited{
+    text-decoration: none;
+    color:black;
+   }
+   .box-left-side div :hover{
+    background-color:rgba(100, 100, 100, 0.614);
+   }
+
+   .box-right-side-controls {
+    width: 25%;
+    background-color: rgb(192, 182, 182);
+ 
+ }
+    .menu-dannye {
+       width: 100%; 
+       border-bottom:1px solid black; 
+       border-top:1px solid black; 
+     }
+    
+    .menu-dannye ul {
+        height: 38px;
+        list-style-type: none;
+        margin: auto;
+        padding: 0;
+        background-color:white ;
+    }
+    
+    
+.menu-dannye ul li1 {
+        float: left;
+        
+    }
+    
+.menu-dannye ul li1 a {
+      display: block;
+      color: black;
+      text-align: center;
+      padding: 7px ;
+      text-decoration: none;
+      font-size: 1.2em;
+       
+    }
+.menu-dannye ul li2 {
+        float: right;
+    }
+    
+.menu-dannye ul li2 a {
+      display: block;
+      color: black;
+      text-align: center;
+      padding: 7px ;
+      text-decoration: none;
+      font-size: 1.2em;
+    }
+
+ 
+
+ 
+.box-right-side-content {
+    width: 75%;
+    background-color: rgb(92, 92, 104);
+}
+
+.box-right-left-side{
+    width:30%;
+    background-color: grey;
+    border-left:6px solid lightgrey;
+    
+    border-top:6px solid lightgrey;
+    border-bottom:6px solid lightgrey;
+    margin:auto;
+    padding:0;
+}
+.profile-photo-container  {
+    
+    width:100%;
+    background-color: rgba(124, 117, 117, 0.502);
+    height:300px;
+    margin:auto;
+}
+.profile-photo-container div{
+    text-align:center; 
+    padding-top:150px;
+    padding-bottom:150px;
+}
+.profile-photo-container div a{
+    text-decoration: none;
+    color:black;
+    font-size:1.1em;
+}
+.profile-photo-container:hover{
+    background-color: rgba(100, 100, 100, 0.614);
+}
+.profile-photo-container img{
+    height: 300px;
+    width:100%;
+}
+.profile-photo-container img:hover{
+    -webkit-transform: scale(1.02);
+    -ms-transform: scale(1.02);
+    transform: scale(1.02); 
+}
+.box-right-right-side{
+    width:64.9%;
+    
+    border-left:15px solid lightgrey;
+    border-right:15px solid lightgrey;
+    border-bottom:15px solid lightgrey;
+    border-top:6px solid lightgrey;
+    margin:auto;
+    padding:0;
+    
+}
+
+.box-statys{
+    width: 100%;
+    border-bottom:10px solid lightgrey;
+}
+.box-statys-container{
+    background-color: grey;
+    width: 100%; 
+    
+}
+.box-statys-container div{
+    text-align:center;
+}
+.box-statys-container div a{
+    text-align:center;
+    text-decoration: none;
+    font-size:1.6em;
+    color:black;
+    
+}
+.private-information{
+    width:100%;
+    background-color: grey;
+    border:1.5px solid black;
+    
+}
+.private-information-text{
+    padding-top:4px;
+    padding-left:4px;
+   
+}
+
+.private-information-text a{
+    color:black;
+    text-decoration: none;
+    font-size: 1.05em;
+    text-align:left;
+}
+.more-inf{
+    padding-top:25px;
+    padding-bottom:25px;
+}
+.more-inf div {
+    text-align:center;
+    
+}
+.more-inf div a{
+    color:black;
+    text-decoration: none;
+    font-size: 1.05em;
+    text-align:center;  
+}
+.more-inf div a:hover{
+    background-color: rgba(100, 100, 100, 0.614);
+   
+}
+.photo-box{
+    width:100%;
+    border-top:3px solid lightgrey;
+}
+.word-photos{
+    width:100%;
+    background-color: white; 
+    border:1.5px solid black;
+}
+.word-photos div a{
+    color:black;
+    text-decoration: none;
+    font-size: 1.05em;
+    text-align:left; 
+    padding-left:4px;   
+}
+.word-photos div a:hover{
+    background-color: rgba(100, 100, 100, 0.614);
+   
+}
+.photo-photo{
+    border-left:1.5px solid black;
+    border-bottom:1.5px solid black;
+    border-right:1.5px solid black;
+    width:100%;
+    padding:0;
+    margin:0;
+    background-color: grey; 
+}
+.photo-photo p{
+    margin:0;
+    padding:4px;
+    text-align: center;
+}
+.photo-photo p img{
+    border:1.5px solid black;
+    float:center;
+    width: 110px;
+    height: 110px;
+    
+}
+.photo-photo p img:hover{
+    -webkit-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    transform: scale(1.05);
+}
+.posts{
+    width:100%;
+    border-top:10px solid lightgrey;
+}
+
+.word-string{
+    width:100%;
+    border:1.5px solid black;
+    background-color: white;
+}
+
+.word-string ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    
+}
+
+.word-string ul li1{
+    float:left;
+}
+.word-string ul ul1 li2{
+    float:rigth;
+    background-color: grey;
+    width:20%;
+    border:2px solid white;
+}
+.word-string ul li1 a{
+    color:black;
+    text-decoration: none;
+    font-size: 1.05em; 
+    padding-left:4px;
+    text-align: left;
+}
+.word-string ul ul1 li2{
+    float:right;
+    text-align: center;  
+}
+.word-string ul ul1 li2 a{
+    color:black;
+    text-decoration: none;
+    font-size: 1em; 
+    padding-right:4px;
+}
+.word-string ul ul1 li2:hover{
+    background-color: rgba(100, 100, 100, 0.614);
+    
+}
+.box-posts{
+    width:100%;
+    background-color: grey;
+    border-bottom:1.5px solid  black;
+    border-right:1.5px solid  black;
+    border-left:1.5px solid  black;
+    height: 350px;
+}
+
+.mini1{
+    
+    padding-bottom:100px;
+    padding-left: 5px;
+    padding-top:5px;
+}
+.mini1 img{
+    border:1.5px solid black;
+    width:47px;
+    height: 47px; 
+    
+}
+.mini2{
+    padding-bottom:100px;
+    padding-left: 5px;
+    padding-top:5px;
+}
+.mini2 img{
+    border:1.5px solid black;
+    width:47px;
+    height: 47px; 
+}
+
+.rigthposts{
+    float:rigth;
+    width:100%;
+   
+}
+.leftposts{
+    float:left;
+    width:13%;
+    
+}
+.namesurname{
+    padding-top:8px;
+    float:left;
+    
+}
+.namesurname div a{
+    text-decoration: none;
+    font-size:0.8em;
+    color: black;
+}
+.post1{
+    padding-top:50px;
+    border:1.5px solid black;
+    width:100%;
+    height: 80px;
+    text-align: center;
+}
+.post1 div a{
+  padding:150px;    
+}
+
+.post2{
+    margin-top: 30px;
+    padding-top:50px;
+    border:1.5px solid black;
+    width:100%;
+    height: 80px;
+    text-align: center;
+}
+.post2 div a{
+  padding:150px;    
+}
+
+
+
+.menu-under-photo{
+    background-color:lightgrey;
+    padding-top:6px;
+}
+.message{
+    background-color: gray;
+    float:left;
+    width:49%;
+    border-right:1.5px solid lightgrey ;
+}
+.message div{
+    text-align:center;
+}
+.message div a{
+    text-decoration: none;
+    color: black;
+    font-size:1.2em;
+}
+.message:hover{
+    background-color: rgba(100, 100, 100, 0.614);
+    
+}
+.plus-friend{
+    background-color: grey;
+    float:right;
+    width:49%;
+    border-left:3px solid lightgrey ;
+    
+}
+.plus-friend div{
+    text-align: center;
+}
+.plus-friend div a{
+    text-decoration: none;
+    color:black;
+    font-size:1.2em;
+
+}
+.plus-friend:hover{
+    background-color: rgba(100, 100, 100, 0.614);
+    
+}
+.followers{
+    background-color: lightgrey;
+    width:100%;
+}
+.followers div{
+    text-align:center;
+}
+.followers div a{
+    text-decoration:none;
+    color:black;
+    font-size:1em;
+}
+.news{
+    background-color: grey;
+    width:70%; 
+    float:center;
+    margin:auto;
+    border-bottom:5px solid lightgrey;
+}
+.news div{
+    text-align:center;   
+}
+.news div a{
+    text-decoration: none;
+    color:black;
+    font-size:1.1em;
+}
+.news:hover{
+    background-color: rgba(100, 100, 100, 0.614);
+   
+}
+.friends{
+    background-color: white;
+    width:100%; 
+    float:center;
+    margin:auto; 
+}
+.friends div{
+    text-align: left;
+}
+.friends div a{
+    text-decoration: none;
+    color:black;
+    font-size:1.2em;
+    padding-left:5px;
+    padding-right: 5px;
+}
+.friends div a:hover{
+    background-color: rgba(217, 217, 217, 0.867);
+   
+}
+.friends-photos{
+    background-color:grey;
+    width:100%;
+    margin:0;
+    padding-top: 2px;
+    
+}
+.friends-photos p{
+    margin:0;
+    padding:1.5px;
+    text-align: center;
+}
+.friends-photos p img{
+    border:1.5px solid black;
+    width:47px;
+    height: 47px;
+}
+.friends-photos p img:hover{
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+.friends-online{
+    background-color: white;
+    width:100%; 
+    float:center;
+    margin:auto ;
+    border-top:5px solid lightgrey;
+}
+.friends-online div{
+    text-align: left;
+}
+.friends-online div a{
+    text-decoration: none;
+    color:black;
+    font-size:1.2em;
+    padding-left:5px;
+    padding-right:5px;
+}
+.friends-online div a:hover{
+    background-color: rgba(217, 217, 217, 0.867);
+    
+}
+.friends-online-photos{
+    background-color:grey;
+    width:100%;
+    margin:0;
+    padding-top: 2px;
+}
+.friends-online-photos p{
+    margin:0;
+    padding:1.5px;
+    text-align: center;
+}
+.friends-online-photos p img{
+    border:1.5px solid black;
+    width:47px;
+    height: 47px;
+}
+.friends-online-photos p img:hover{
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+.menu-button {
+    display: none;
+}
+.menu-button:hover{
+    -webkit-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    transform: scale(1.05); 
+    background-color: rgb(165, 164, 164);
+}
+.menu-friends{
+    display:none;
+}
+.menu-friends:hover{
+    background-color: rgba(255, 255, 255, 0.632);
+}
+.menu-friends-online{
+    display:none;
+}
+.menu-friends-online:hover{
+    background-color: rgba(255, 255, 255, 0.632);
+}
+
+@media screen and (max-width:600px){
+    .top-nav-menu ul li a {
+        float:none;
+        width: auto;
+        margin-left: 0;
+    }
+    .menu-button {
+        margin:0;
+        display: block;
+        display: block;
+        text-align: center;
+        color: black;
+        font-size: 1.1em;
+        
+        background-color: grey;
+        width:20%;
+        padding: 5px;
+        border:2px solid black;
+       
+    }
+   
+    .box-right-side {
+        width: 100%;
+    }
+    .column {
+        float: none;
+    }
+    .box-left-side {
+        display: none;
+        width:100%;  
+    }
+    .box-right-left-side{
+        width:100%;
+        border-left:1px solid black;
+        border-right:1px solid black
+    }
+    .menu-dannye{
+        border-left:1px solid black;
+        border-right:1px solid black;
+    }
+    .message{
+        width:100%;
+        text-align:center;
+        border-right:1px solid black;
+        font-size:1.4em;
+    }
+    
+    
+    .plus-friend{
+        margin-top:5px;
+        width:100%;
+        border-left:1px solid black;
+        font-size:1.4em;
+    }
+    .friends{
+        width:100%;
+        float:left;
+        display:none;
+    }
+    .menu-friends {
+        margin:auto;
+        display: block;
+        display: block;
+        text-align: center;
+        color: black;
+        font-size: 1.1em;
+        
+        background-color: white;
+        width:50%;
+        padding: 5px;
+        border:2px solid black;
+       
+    }
+    .friends-online{
+        border:none;
+        width:100%;
+        float:left;
+        display:none;
+    }
+    .menu-friends-online {
+        margin:auto;
+        margin-top:3px;
+        display: block;
+        display: block;
+        text-align: center;
+        color: black;
+        font-size: 1.1em;
+        
+        background-color: white;
+        width:50%;
+        padding: 5px;
+
+        border:2px solid black;
+       
+    }
+   .box-statys{
+    display:none;
+   }
+   .box-right-right-side{
+    width:100%;
+    border-left:1px solid black;
+    border-right:1px solid black;
+   }
+   .private-information{
+    border-left:none;
+    border-right:none;
+   }
+   .word-photos{
+    border-left:none;
+    border-right:none;
+   }
+   .photo-photo{
+    border-left:none;
+    border-right:none;
+   }
+   
+   .word-string{
+    border-left:none;
+    border-right:none;
+   }
+   .box-posts{
+    border-left:none;
+    border-right:none;
+   }
+   .rigthposts{
+    width:82%;
+    float:right;
+   }
+   .post1{
+    width:100%;
+   }
+   .post1 div a{
+    text-align:center;
+    padding:95px;
+   }
+   .post2{
+    width:100%;
+   }
+   .post2 div a{
+    text-align:center;
+    padding:95px;
+   }
+}
+@media screen and (min-width:801px){
+    .box-left-side[style]{
+     display:block !important;
+    };
+ }
+ @media screen and (min-width:801px){
+    .friends[style]{
+     display:block !important;
+    };
+}
+@media screen and (min-width:801px){
+    .friends-online[style]{
+     display:block !important;
+    };
+}
+
+    
+    
