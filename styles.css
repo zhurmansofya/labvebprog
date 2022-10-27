@@ -1,4 +1,5 @@
 
+     
       body {
         padding: 0;
         margin: 0;
@@ -6,7 +7,7 @@
     }
 
 
-    
+   
     .container {
         margin: auto;
         width: 70%;
@@ -46,7 +47,7 @@
       font-weight: bold;
     }
     .top-nav-menu-container ul li1 a:hover { 
-        background-color: red;
+        background-color: rgba(100, 100, 100, 0.614);
     }
 
     .top-nav-menu-container ul li2 {
@@ -63,10 +64,13 @@
       text-decoration: none;
     }
     .top-nav-menu-container ul li2 a:hover { 
-    background-color: rgba(100, 100, 100,0.614);
+    background-color: rgba(100, 100, 100, 0.614);
    
     }
 
+
+
+     
     .colum{
         float:left;
     }
