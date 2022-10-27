@@ -620,7 +620,8 @@
 
 @media screen and (max-width:1000px){
     .container{
-          width:90%;
+        width:90%;
+    }
     .top-nav-menu ul li a {
         float:none;
         width: auto;
