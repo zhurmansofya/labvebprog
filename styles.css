@@ -63,13 +63,10 @@
       text-decoration: none;
     }
     .top-nav-menu-container ul li2 a:hover { 
-    background-color: rgba(100, 100, 100);
+    background-color: rgba(100, 100, 100,0.614);
    
     }
 
-
-
-    
     .colum{
         float:left;
     }
