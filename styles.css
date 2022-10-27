@@ -46,7 +46,7 @@
       font-weight: bold;
     }
     .top-nav-menu-container ul li1 a:hover { /*-- наводим на текст и он подсвечивается-->*/
-        background-color: azure;
+        background-color: rgba(100, 100, 100, 0.614);
     }
 
     .top-nav-menu-container ul li2 {
@@ -63,7 +63,8 @@
       text-decoration: none;
     }
     .top-nav-menu-container ul li2 a:hover { /*-- наводим на текст и он подсвечивается-->*/
-        background-color: azure;
+    background-color: rgba(100, 100, 100, 0.614);
+   
     }
 
 
@@ -106,7 +107,7 @@
     color:black;
    }
    .box-left-side div :hover{
-    background-color: azure;
+    background-color:rgba(100, 100, 100, 0.614);
    }
 
    .box-right-side-controls {
@@ -192,7 +193,7 @@
     font-size:1.1em;
 }
 .profile-photo-container:hover{
-    background-color: azure;
+    background-color: rgba(100, 100, 100, 0.614);
 }
 .profile-photo-container img{
     height: 300px;
@@ -267,7 +268,8 @@
     text-align:center;  
 }
 .more-inf div a:hover{
-    background-color: azure;
+    background-color: rgba(100, 100, 100, 0.614);
+   
 }
 .photo-box{
     width:100%;
@@ -286,7 +288,8 @@
     padding-left:4px;   
 }
 .word-photos div a:hover{
-    background-color: azure;
+    background-color: rgba(100, 100, 100, 0.614);
+   
 }
 .photo-photo{
     border-left:1.5px solid black;
@@ -360,7 +363,8 @@
     padding-right:4px;
 }
 .word-string ul ul1 li2:hover{
-    background-color: azure;
+    background-color: rgba(100, 100, 100, 0.614);
+    
 }
 .box-posts{
     width:100%;
@@ -458,7 +462,8 @@
     font-size:1.2em;
 }
 .message:hover{
-    background-color: azure;
+    background-color: rgba(100, 100, 100, 0.614);
+    
 }
 .plus-friend{
     background-color: grey;
@@ -477,7 +482,8 @@
 
 }
 .plus-friend:hover{
-    background-color: azure;
+    background-color: rgba(100, 100, 100, 0.614);
+    
 }
 .followers{
     background-color: lightgrey;
@@ -507,7 +513,8 @@
     font-size:1.1em;
 }
 .news:hover{
-    background-color: azure;
+    background-color: rgba(100, 100, 100, 0.614);
+   
 }
 .friends{
     background-color: white;
@@ -523,9 +530,11 @@
     color:black;
     font-size:1.2em;
     padding-left:5px;
+    padding-right: 5px;
 }
 .friends div a:hover{
-    background-color: azure;
+    background-color: rgba(217, 217, 217, 0.867);
+   
 }
 .friends-photos{
     background-color:grey;
@@ -564,9 +573,11 @@
     color:black;
     font-size:1.2em;
     padding-left:5px;
+    padding-right:5px;
 }
 .friends-online div a:hover{
-    background-color: azure;
+    background-color: rgba(217, 217, 217, 0.867);
+    
 }
 .friends-online-photos{
     background-color:grey;
