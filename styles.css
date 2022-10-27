@@ -6,7 +6,6 @@
     }
 
 
-    /*верхняя строка*/
     .container {
         margin: auto;
         width: 70%;
@@ -45,7 +44,7 @@
       text-decoration: none;
       font-weight: bold;
     }
-    .top-nav-menu-container ul li1 a:hover { /*-- наводим на текст и он подсвечивается-->*/
+    .top-nav-menu-container ul li1 a:hover { 
         background-color: rgba(100, 100, 100, 0.614);
     }
 
@@ -62,14 +61,14 @@
       padding: 18px;
       text-decoration: none;
     }
-    .top-nav-menu-container ul li2 a:hover { /*-- наводим на текст и он подсвечивается-->*/
+    .top-nav-menu-container ul li2 a:hover { 
     background-color: rgba(100, 100, 100, 0.614);
    
     }
 
 
 
-     /*правое и левое меню*/
+    
     .colum{
         float:left;
     }
@@ -621,7 +620,7 @@
 
 @media screen and (max-width:1000px){
     .container{
-          width:100%;
+          width:90%;
     .top-nav-menu ul li a {
         float:none;
         width: auto;
