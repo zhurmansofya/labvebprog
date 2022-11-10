@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"> 
+        <meta http-equiv="X-UA-Compatible" content="IE-edge"> 
+        <meta name="viewport" content="width-device-width, initial-scale=1.0">
+        <title> Document</title>
+    </head>
+
+<body>
+    <button onclick="createTable">Создать таблицу</button>
+    <button onclick="addRow"> Добавить строку</button>
+    <button>Удалить строку №</button>
+    <input type="number" min="1" required/>
+    <table>
+        <tr>
+            <td>1</td>
+            <td>2</td>
+        </tr>
+    </table>
+
+    <din id="container"></din>
+    <script>
+        function createTable(){
+            let table = document.createElement("table");
+            table.setAttribute("id","mytable");
+            document.getElementById("container").appendChild(table);
+        }
+        function addRow(){
+            const table=document.getElementById("mytable");
+            const row=document.createElement("td");
+            const tdNum=document.createElement("td");
+            tdNum.innerText="1";
+
+            const tdval=document.createElement("td");
+            tdVal.innerText="Value";
+
+            row.appendChild(tdNum);
+            row.appendChild(tdVal);
+
+            table.appendChild(row);
+
+        }
+
+
+    </script>
+</body>
+
+ 
+</html>
