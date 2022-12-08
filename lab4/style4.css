@@ -1,0 +1,20 @@
+
+.users {
+    border:1px solid black;
+}
+.users span {
+    display: inline-block;
+    padding: 15px;
+    margin: 15px;
+}
+
+.users.name_user {
+    background-color: rgb(206, 206, 206);
+}
+
+.users.birthday_user {
+    background-color: rgb(206, 206, 206) ;
+}
+.users.city_user{
+    background-color: rgb(206, 206, 206) ;
+}
