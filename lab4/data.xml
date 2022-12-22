@@ -2,3 +2,9 @@
 <items>
    <item birthday="08.11.2003" id=1><name>Журман Софья Сергеевна</name><city>Орел</city></item>
 </items>
+<?xml version="1.0" encoding="UTF-8"?>
+<items>
+  <item id="1"> <name>Журман Софья Сергеевна</name> <birthday>08.11.2003</birthday> <city>Орел</city> </item>
+
+   <item id="2"> <name>Иванов Иван Иванович </name> <birthday>08.12.2000</birthday> <city>Москва</city> </item>
+</items>
