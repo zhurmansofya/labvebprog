@@ -1,4 +1,10 @@
 <?php
+require("db.php");
+?>
+
+
+
+<?php
 $xml = simplexml_load_file("data.xml") or die("Error: Cannot create object");
 ?>
 
@@ -16,17 +22,18 @@ $xml = simplexml_load_file("data.xml") or die("Error: Cannot create object");
 <body>
     <div class="container">
         <?php
-        foreach($xml->children() as $item){
+        foreach($xml->item as $item){
         ?>
         <div class="users">
-            <span class="name_user"><?=$item->name?></span>
-            <span class="birthday_user"><?=$item['birthday']?></span>
-            <span class="city_user"><?=$item->city?></span>
+            <div class="name_user"><?php echo $item->name?></div>
+            <div class="birthday_user"><?php echo $item->birthday?></div>
+            <div class="city_user"><?php echo $item->city?></div>
             <a href="delete.php?id=<?=$item['id']?>">Удалить</a>
         </div>
         <?php
         }
         ?>
     </div>
+    <a href="create.php">Добваить нового пользователя</a>
 </body>
 </html>
