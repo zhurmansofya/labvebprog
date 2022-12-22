@@ -11,28 +11,32 @@
 
 <body>
 <?php
-    if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+    if (isset($_POST['submit'])) {
         $name = $_POST['name'];
         $birthday = $_POST['birthday'];
         $city = $_POST['city'];
 
         $xml = simplexml_load_file("data.xml") or die("Error: Cannot create object");
-        
-        $task = $xml->addChild('item', '');
-        $task->addAttribute('birhday', $birthday);
-        $task->addChild('name', $name);
-        $task->addChild('city', $city);
-        $task->addAttribute('id', $xml->count());
 
+        $lastEl=$xml->item[($xml->count())-1];
+        
+        $new = $xml->addChild('item', '');
+        $new->addChild('birthday', $birthday);
+        $new->addChild('name', $name);
+        $new->addChild('city', $city);
+        $new->addAttribute('id', $lastEl['id']+1);
+        
         $xml->saveXML('data.xml');
+        
     }
     ?>
    
-   <form method="POST" action="create.php">
-         ФИО:<input type="text" name="name" required/><br/>
-         Дата рождения:<input type="date" name="birthday"/><br/>
-         Город:<input type="text" name="city" required/><br/>
-         <input type="submit" value="Save"/>
-    </form>    
+   <form method="POST" action="#">
+         ФИО:<input type="text" name="name" required/><br>
+         Дата рождения:<input type="date" name="birthday" required/><br>
+         Город:<input type="text" name="city" required/><br>
+         <input type="submit" name="submit" value="Save"/>
+    </form> 
+    <a href="index.php">Назад</a>   
 </body>
 </html>
